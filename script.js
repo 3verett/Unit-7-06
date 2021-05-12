@@ -1,9 +1,9 @@
-let number = 5
+const number = 5
 let guess = 0
 
-while (guess != number) {
+while (guess !== number) {
   guess = prompt('Guess a number between 1 and 10.')
-  guess = parseInt (guess)
+  guess = parseInt(guess)
 
   if (guess === number) {
     alert('You got it right!')
